@@ -48,6 +48,7 @@ function AppleCounter({root}) {
         ></Button>
         <AppleBasket appleCount={rightAppleCount} basketName={"Basket-2"} />
       </section>
+      
    
     </>
   );

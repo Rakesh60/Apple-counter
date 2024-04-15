@@ -6,7 +6,9 @@ function AppleBasket({ appleCount, basketName }) {
       <h1>
         <span>{appleCount}</span>Apples
       </h1>
-      <p>{basketName}</p>
+      <p>
+        {basketName} {appleCount >= 10 && "full"}
+      </p>
     </div>
   );
 }
