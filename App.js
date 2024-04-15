@@ -1,10 +1,10 @@
 import React from "react";
 import AppleCounter from "./components/AppleCounter";
 
-function App() {
+function App({root}) {
   return (
     <div>
-      <AppleCounter />
+      <AppleCounter root={root}/>
     </div>
   );
 }
