@@ -1,0 +1,27 @@
+h1 {
+  background-color: red;
+  display: inline;
+  color: yellow;
+  text-align: center;
+}
+.card {
+  max-width: 200px;
+  border: 2px solid rgb(14, 20, 14);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+.card h3,
+p {
+  margin: 4px 0;
+}
+.card-content {
+  padding: 0 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
